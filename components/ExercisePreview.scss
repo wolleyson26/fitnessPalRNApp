@@ -1,0 +1,108 @@
+.container {
+    background: #FFE9CA;
+    margin: -35px -10px;
+    // width: 95%;
+    // margin: 0 auto;
+    border-radius: 50px;
+    height: 77%;
+    // padding: 30px;
+    position: relative;
+}
+
+.workoutTypeButton {
+    background: #272D34;
+    max-width: 120.69px;
+    // height: 50px;
+    border-radius: 25.4375px;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    overflow: hidden;
+    margin: 40px 30px;
+
+}
+
+.trainerImage {
+    margin-top: -115px;
+    margin-left: -40px;
+    overflow: hidden;
+}
+
+.timeText {
+    padding: 15px;
+    width: 119px;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 25px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 377px;
+    left: 24px;
+}
+
+.exercisesCardStack{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    position: absolute;
+    top: 450px;
+}
+
+.stepsCard {
+    width: 190px;
+}
+
+.stepsCardText {
+    font-size: 18px;
+    padding: 20px 0;
+}
+
+.stepsCard, .exercisesCard {
+    background: #FFFFFF;
+    height: 170px;
+    border-radius: 30px;
+    padding: 20px;
+
+}
+
+.exercisesCard {
+    width: 134px;
+}
+
+.exercisesText {
+    opacity: .5;
+    padding: 5px 0;
+}
+
+.exercisesTextBold {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.startContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 50px 0px;
+    gap: 10px;
+}
+
+.start {
+    background: #272D34;
+    color: white;
+}
+
+.preview {
+    background: #E1F0F4;
+}
+
+.start, .preview {
+    // margin: 5px;
+    padding: 35px;
+    width: 170px;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 45px;
+}

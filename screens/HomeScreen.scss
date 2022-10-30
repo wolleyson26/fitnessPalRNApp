@@ -1,0 +1,80 @@
+.container {
+  margin: 10px 20px;
+}
+
+.greeting {
+  font-family: "Mazzard";
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.heading {
+  font-family: "Plus Jakarta Display";
+  color: rgba(0, 0, 0, 0.5);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.stepsContainer {
+  margin-top: 15px;
+  height: 120px;
+  background: #e1f0f4;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+
+.stepsContainerText {
+  font-size: 23px;
+  line-height: 38px;
+}
+
+.boldText {
+  font-weight: 700;
+}
+
+.yourWorkoutsSection {
+  margin-top: 30px;
+}
+
+.yourWorkoutsSectionHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 20px;
+}
+
+.yourWorkoutsSectionHeaderText {
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #e6e6e6;
+  border-radius: 30px;
+  padding: 5px;
+  margin-top: 20px;
+}
+
+.cardText {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.cardInnerFlex {
+    flex-direction: row;
+}
+
+.cardIcon {
+    margin: 0 10px;
+}

@@ -1,0 +1,54 @@
+.textInputShort {
+  width: 160px;
+}
+
+.label {
+  padding: 10px;
+  opacity: 0.6;
+}
+
+.textInput {
+  padding: 15px;
+  border: 1px solid #e1f0f4;
+  border-radius: 30px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.genderFlex {
+    flex-direction: row;
+  }
+  
+  .genderBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    margin-right: 20px;
+    border: 2px solid #f5f5f5;
+    border-radius: 20px;
+    width: 90px;
+    height: 68px;
+  }
+  
+  .selected {
+    background: rgb(145, 145, 236);
+  }
+
+.error {
+  border: 1px solid red;
+}
+
+.errorText {
+  color: red;
+  padding: 5px 0px 5px 10px;
+  font-size: 10px;
+}
+
+.dateContainer {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
